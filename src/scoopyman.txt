@@ -1,0 +1,12 @@
+Welcome to SCOOPYMAN
+
+FLAGS           USE CASE
+-               Show this page. Yeah that's how you got here
+-S              Install an/multiiple apps
+-Syu            Update the system and install apps (if you want tho)
+-Q              List all apps installed (You can also grep this if you want to search for a single app)
+-Qe             Runs scoop which for your app of choice
+-Ss             Search online for your app
+-R              Removes/Uninstalls an app
+
+Anything else   INVALID OPTION and you also get this file as a ball of shame!
