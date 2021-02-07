@@ -5,6 +5,7 @@ This is a PACMAN like wrapper for SCOOP package manager written in Python in Win
 
 # INSTALL INSTRUCTIONS
 Open up an Elevated Powershell by Pressing Win + X and then A
+
 `cd` to any directory of your wish
 
 `git clone https://github.com/Eyepan/Scoopyman.git`
