@@ -25,7 +25,7 @@ except KeyError:
 print("PRESS ANY KEY TO INSTALL pacman.py")
 input()
 system("pip install wheel nuitka")
-system("nutika src\\pacman.py")
+system("nuitka src\\pacman.py")
 system(f"Copy-Item src\\pacman.exe {environ['SCOOP']}\\shims\\pacman.exe")
 
 print("Cleaning up build files...")
