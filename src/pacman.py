@@ -2,6 +2,10 @@ from sys import argv
 from os import system
 arguments = list(argv)
 
+globally = '--global'
+# IF NOT RUNNING GLOBALLY UNCOMMENT THE NEXT LINE
+#globally = ''
+
 documentation = '''Welcome to SCOOPYMAN
 
 FLAGS           USE CASE
@@ -24,7 +28,7 @@ if arguments[0] == '-S':
     arguments.pop(0)
     print("Installing", *arguments)
     for i in arguments:
-        system(f"scoop install {i} --global")
+        system(f"scoop install {i} {globally}")
 
 #SCOOP UPDATE ALL / SCOOP INSTALL
 elif arguments[0] == '-Syu':
@@ -35,7 +39,7 @@ elif arguments[0] == '-Syu':
     system("scoop status")
     for i in arguments:
         print("Installing", *arguments)
-        system(f"scoop install {i} --global")
+        system(f"scoop install {i} {globally}")
     
 #SCOOP LIST
 elif arguments[0] == '-Q':
@@ -64,7 +68,7 @@ elif arguments[0] == '-R':
     arguments.pop(0)
     print("Uninstalling:", *arguments)
     for i in arguments:
-        system(f"scoop uninstall {i} --global")
+        system(f"scoop uninstall {i} {globally}")
 
 elif arguments[0] == '-' or arguments[0] == '--help' or arguments[0] == '-h':
     print(documentation)
