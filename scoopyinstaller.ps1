@@ -38,7 +38,7 @@ Write-Output "SCOOP INSTALLED IN DIRECTORY $env:SCOOP"
 
 Write-Output "Installing pacman..."
 pip install wheel pyinstaller
-pyinstaller src\pacman.py
+pyinstaller src\pacman.py --onefile
 Copy-Item dist\pacman\pacman.exe $env:SCOOP\shims\pacman.exe
 Write-Output "Cleaning up build files..."
 Remove-Item build -Recurse
