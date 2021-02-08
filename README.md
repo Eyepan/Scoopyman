@@ -11,7 +11,7 @@ Open up an Elevated Powershell by Pressing Win + X and then A
 `git clone https://github.com/Eyepan/Scoopyman.git`
 
 `cd Scoopyman`
-
+`Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
 `.\scoopyinstaller.ps1`
 
 And follow the instructions which appear on your screen and you are done! Enjoy using `sudo pacman -Syu` when installing apps in Windows
