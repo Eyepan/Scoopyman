@@ -24,4 +24,6 @@ All apps are installed globally by default. To disable this go into `src/pacman.
 
 `#globally = ''`
 
+`.\scoopyinstaller.ps1` again
+
 And have fun!
