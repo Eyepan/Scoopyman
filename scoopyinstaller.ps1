@@ -31,7 +31,6 @@ catch {
     Write-Output "SCOOP is not installed"
     installscoop
 }
-
 Write-Output "SCOOP INSTALLED IN DIRECTORY $env:SCOOP"
 
 # finally starting to setup pacman
