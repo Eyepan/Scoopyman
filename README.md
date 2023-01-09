@@ -2,16 +2,14 @@
 This is a PACMAN like wrapper for SCOOP package manager written in Python in Windows 10. 
 
 Please check out my C++ scoopman repo from https://github.com/Eyepan/scoopman since it is the most updated.
-And please check out PACAPTR https://github.com/rami3l/pacaptr which is written in Rust, and honestly is coded better than me
+And please check out PACAPTR https://github.com/rami3l/pacaptr which is written in Rust, and honestly is coded better than this.
 
-That being said follow these instructions if you still want to use this
-# MAKE SURE YOU ARE RUNNING AS AN ADMIN TO USE THE INSTALL SCRIPT
+With that being said follow these instructions if you still want to use this repo:
+## MAKE SURE YOU ARE RUNNING AS AN ADMIN TO USE THE INSTALL SCRIPT
 
 # INSTALL INSTRUCTIONS
 
 You can either install using the made script, or you can build and install on your own.
-
-I would honestly prefer the latter since I am not that good when it comes to ps1 scripting. But you can do the 1st method if you know what you are doing. And please make sure to read the ps1 file before doing anything
 
 1. For the ps1 script
 Open up an Elevated Powershell by Pressing Win + X and then A
